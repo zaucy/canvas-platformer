@@ -1,0 +1,19 @@
+{
+  "name": "canvas-platform",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server --content-base ./public --inline --hot"
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "node-sass": "^3.11.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-glsl-loader": "^1.0.1"
+  }
+}
